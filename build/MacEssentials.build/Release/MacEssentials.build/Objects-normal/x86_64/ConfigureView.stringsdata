@@ -1,0 +1,20 @@
+{
+  "source": "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/ConfigureView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Create Standalone Single LLM Menu Bar Item"
+      },
+      {
+        "comment": "",
+        "key": "Create Standalone Multi LLM Menu Bar Item"
+      },
+      {
+        "comment": "",
+        "key": "Activate Reverse Mouse Scrolling"
+      }
+    ]
+  },
+  "version": 1
+}

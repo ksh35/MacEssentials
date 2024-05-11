@@ -52,7 +52,6 @@
 		6F029BBE2BC48C4C009FB1D0 = {
 			isa = PBXGroup;
 			children = (
-				6FC482B82BE61C2A0028A9F7 /* ConfigureView.swift */,
 				6F029BC92BC48C4C009FB1D0 /* MacEssentials */,
 				6F029BC82BC48C4C009FB1D0 /* Products */,
 			);
@@ -71,6 +70,7 @@
 			children = (
 				6FC482B42BD9EE9D0028A9F7 /* mainView.swift */,
 				6FC482B62BE32D760028A9F7 /* browser.swift */,
+				6FC482B82BE61C2A0028A9F7 /* ConfigureView.swift */,
 				6F029BE02BC4D9BF009FB1D0 /* Info.plist */,
 				6F029BDE2BC48CBA009FB1D0 /* VolumeMixerView.swift */,
 				6F029BCA2BC48C4C009FB1D0 /* MacEssentialsApp.swift */,

@@ -1,0 +1,20 @@
+{
+  "source": "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/MacEssentials/mainView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Configure"
+      },
+      {
+        "comment": "",
+        "key": "Full Quit (Ends all features)"
+      },
+      {
+        "comment": "",
+        "key": "Quit"
+      }
+    ]
+  },
+  "version": 1
+}

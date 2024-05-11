@@ -11,14 +11,20 @@ import WebKit
 
 struct WebView: NSViewRepresentable {
     let url: URL
-
+    
     func makeNSView(context: Context) -> WKWebView {
-        return WKWebView()
+        
+        let configuration = WKWebViewConfiguration()
+        configuration.websiteDataStore = WKWebsiteDataStore.default()
+        return WKWebView(frame: .zero, configuration: configuration)
     }
 
     func updateNSView(_ nsView: WKWebView, context: Context) {
-        let request = URLRequest(url: self.url)
-        nsView.load(request)
+        if nsView.url != self.url {
+            let request = URLRequest(url: self.url)
+            nsView.load(request)
+        }
     }
 }
+
 

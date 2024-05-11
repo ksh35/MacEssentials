@@ -1,0 +1,16 @@
+{
+  "source": "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/MacEssentials/VolumeMixerView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Volume Mixer"
+      },
+      {
+        "comment": "",
+        "key": "Activate Mixer"
+      }
+    ]
+  },
+  "version": 1
+}

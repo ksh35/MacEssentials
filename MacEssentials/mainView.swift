@@ -7,70 +7,76 @@
 
 import Foundation
 import SwiftUI
-
+import AppKit
 struct MainView: View{
-    @State var reverseMouseScroll: Bool = false
-    @State private var showGPT = false
+    
+    @State private var showLLM = false
+    @StateObject private var windowManager = WindowManager()
     var body: some View{
-        var volumeMixerWindow: NSWindow? = nil
         VStack() {
-            
-            Button("Open Volume Mixer") {
-                if volumeMixerWindow == nil{
-                    volumeMixerWindow = NSWindow(
-                        contentRect: NSRect(x: 20, y: 20, width: 480, height: 300),
-                        styleMask: [.titled, .closable, .miniaturizable, .resizable, .fullSizeContentView],
-                        backing: .buffered, defer: false)
-                    volumeMixerWindow?.center()
-                    volumeMixerWindow?.isReleasedWhenClosed = false
-                    volumeMixerWindow?.setFrameAutosaveName("Volume Mixer")
-                    volumeMixerWindow?.contentView = NSHostingView(rootView: VolumeMixerView())
+            Button("Open Mac Essentials"){
+                windowManager.openConfigureWindow()
+            }.padding([.top], 10)
+            if(states.singleLlmStatus){
+                Button("Ask LLM") {
+                    showLLM = true
                 }
-                volumeMixerWindow?.makeKeyAndOrderFront(nil)
-                volumeMixerWindow?.orderFrontRegardless()
-            }
-            .keyboardShortcut("1").padding([.top], 10)
-            
-            
-            Button(reverseMouseScrollText(reverseMouseScroll: reverseMouseScroll)) {
-                if(!reverseMouseScroll){
-                    if(startEventTap()){
-                        NSLog("True")
-                        reverseMouseScroll.toggle()
-                    }
-                }else{
-                    stopEventTap()
-                    reverseMouseScroll.toggle()
-                    NSLog("False")
+                .popover(isPresented: $showLLM) {
+                    var width:CGFloat = 300
+                    var height:CGFloat = 400
+                        llmView(width: width, height: height, urlString: "https://www.chatgpt.com").frame(width: width, height: height)
+                    
                 }
-                
             }
-            .keyboardShortcut("2")
             
-            Button("Ask GPT") {
-                showGPT = true
-            }
-            .popover(isPresented: $showGPT) {
-                gptView().frame(width: 400, height: 500)
-                
-            }.keyboardShortcut("3")
-            Divider()
-            Button("Quit") {
-                stopEventTap()
+            Button("Full Quit (Ends all features)") {
+                stopEventTap() //Ends the event tap for reverse mouse scrolling
                 NSApplication.shared.terminate(nil)
                 
-            }.keyboardShortcut("q")
+            }.keyboardShortcut("q").padding([.trailing, .leading,.bottom], 10)
             
         }
     }
-    private func reverseMouseScrollText(reverseMouseScroll: Bool) -> String{
-        if(reverseMouseScroll){
-            return "Deactivate Reverse Mouse Scrolling"
-        }else{
-            return "Activate Reverse Mouse Scrolling"
+    
+}
+
+
+class WindowManager: NSObject, ObservableObject {
+    @Published var window: NSWindow?
+    
+    func openConfigureWindow() {
+        if window == nil {
+            let screen = NSScreen.main?.visibleFrame ?? NSRect(x: 0, y: 0, width: 800, height: 600)
+            let windowWidth = screen.width * 0.5
+            let windowHeight = screen.height * 0.5
+            
+            window = NSWindow(
+                contentRect: NSRect(x: 0, y: 0, width: windowWidth, height: windowHeight),
+                styleMask: [.titled, .closable, .miniaturizable, .resizable, .fullSizeContentView],
+                backing: .buffered,
+                defer: false
+            )
+            window?.center()
+            window?.contentView = NSHostingView(rootView: ConfigureView())
+            window?.makeKeyAndOrderFront(nil)
+            window?.isReleasedWhenClosed = false
+            window?.delegate = self
+        } else {
+            window?.makeKeyAndOrderFront(nil)
         }
     }
+    
+    func closeWindow() {
+        window = nil
+    }
 }
+
+extension WindowManager: NSWindowDelegate {
+    func windowWillClose(_ notification: Notification) {
+        closeWindow()
+    }
+}
+
 #Preview {
     MainView()
 }

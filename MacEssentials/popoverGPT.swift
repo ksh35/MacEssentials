@@ -8,10 +8,13 @@
 import Foundation
 import SwiftUI
 
-struct gptView: View {
-
+struct llmView: View {
+    var width:CGFloat
+    var height:CGFloat
+    var urlString:String
     var body: some View {
-        WebView(url: URL(string: "https://www.meta.ai")!)
+        WebView(url: URL(string: urlString)!)
             .frame(minWidth: 300, minHeight: 400)
     }
 }
+

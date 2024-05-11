@@ -1,0 +1,65 @@
+{
+  "" : {
+    "const-values" : "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/build/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/MacEssentials-master.swiftconstvalues",
+    "dependencies" : "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/build/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/MacEssentials-master.d",
+    "diagnostics" : "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/build/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/MacEssentials-master.dia",
+    "emit-module-dependencies" : "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/build/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/MacEssentials-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/build/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/MacEssentials-master-emit-module.dia",
+    "swift-dependencies" : "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/build/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/MacEssentials-master.swiftdeps"
+  },
+  "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/build/MacEssentials.build/Release/MacEssentials.build/DerivedSources/CoreDataGenerated/MacEssentials/Item+CoreDataClass.swift" : {
+    "index-unit-output-path" : "/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/Item+CoreDataClass.o",
+    "llvm-bc" : "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/build/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/Item+CoreDataClass.bc",
+    "object" : "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/build/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/Item+CoreDataClass.o"
+  },
+  "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/build/MacEssentials.build/Release/MacEssentials.build/DerivedSources/CoreDataGenerated/MacEssentials/Item+CoreDataProperties.swift" : {
+    "index-unit-output-path" : "/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/Item+CoreDataProperties.o",
+    "llvm-bc" : "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/build/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/Item+CoreDataProperties.bc",
+    "object" : "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/build/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/Item+CoreDataProperties.o"
+  },
+  "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/build/MacEssentials.build/Release/MacEssentials.build/DerivedSources/CoreDataGenerated/MacEssentials/MacEssentials+CoreDataModel.swift" : {
+    "index-unit-output-path" : "/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/MacEssentials+CoreDataModel.o",
+    "llvm-bc" : "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/build/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/MacEssentials+CoreDataModel.bc",
+    "object" : "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/build/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/MacEssentials+CoreDataModel.o"
+  },
+  "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/build/MacEssentials.build/Release/MacEssentials.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/build/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/build/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/GeneratedAssetSymbols.o"
+  },
+  "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/ConfigureView.swift" : {
+    "index-unit-output-path" : "/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/ConfigureView.o",
+    "llvm-bc" : "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/build/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/ConfigureView.bc",
+    "object" : "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/build/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/ConfigureView.o"
+  },
+  "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/MacEssentials/browser.swift" : {
+    "index-unit-output-path" : "/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/browser.o",
+    "llvm-bc" : "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/build/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/browser.bc",
+    "object" : "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/build/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/browser.o"
+  },
+  "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/MacEssentials/MacEssentialsApp.swift" : {
+    "index-unit-output-path" : "/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/MacEssentialsApp.o",
+    "llvm-bc" : "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/build/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/MacEssentialsApp.bc",
+    "object" : "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/build/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/MacEssentialsApp.o"
+  },
+  "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/MacEssentials/mainView.swift" : {
+    "index-unit-output-path" : "/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/mainView.o",
+    "llvm-bc" : "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/build/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/mainView.bc",
+    "object" : "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/build/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/mainView.o"
+  },
+  "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/MacEssentials/Persistence.swift" : {
+    "index-unit-output-path" : "/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/Persistence.o",
+    "llvm-bc" : "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/build/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/Persistence.bc",
+    "object" : "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/build/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/Persistence.o"
+  },
+  "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/MacEssentials/popoverGPT.swift" : {
+    "index-unit-output-path" : "/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/popoverGPT.o",
+    "llvm-bc" : "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/build/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/popoverGPT.bc",
+    "object" : "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/build/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/popoverGPT.o"
+  },
+  "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/MacEssentials/VolumeMixerView.swift" : {
+    "index-unit-output-path" : "/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/VolumeMixerView.o",
+    "llvm-bc" : "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/build/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/VolumeMixerView.bc",
+    "object" : "/Users/krishmeghani/Documents/MacEssentials/MacEssentials/build/MacEssentials.build/Release/MacEssentials.build/Objects-normal/x86_64/VolumeMixerView.o"
+  }
+}
